@@ -130,4 +130,5 @@ def main(page: ft.Page):
     )
 
 
-ft.app(main)
+if __name__ == "__main__":
+    ft.app(target=main)
